@@ -10,6 +10,9 @@ import { ParentComponent } from './components/parent/parent.component';
 import { ChildComponent } from './components/child/child.component';
 import { ParenttComponent } from './components/child-to-parent/parentt/parentt.component';
 import { ChilddComponent } from './components/child-to-parent/childd/childd.component';
+import { Child1Component } from './components/between-two-childs/child1/child1.component';
+import { Child2Component } from './components/between-two-childs/child2/child2.component';
+import { Parent11Component } from './components/between-two-childs/parent11/parent11.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { ChilddComponent } from './components/child-to-parent/childd/childd.comp
     ParentComponent,
     ChildComponent,
     ParenttComponent,
-    ChilddComponent
+    ChilddComponent,
+    Child1Component,
+    Child2Component,
+    Parent11Component
   ],
   imports: [
     BrowserModule,
