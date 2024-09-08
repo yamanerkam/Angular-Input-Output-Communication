@@ -8,6 +8,8 @@ import { TwoComponent } from './components/two/two.component';
 import { ThreeComponent } from './components/three/three.component';
 import { ParentComponent } from './components/parent/parent.component';
 import { ChildComponent } from './components/child/child.component';
+import { ParenttComponent } from './components/child-to-parent/parentt/parentt.component';
+import { ChilddComponent } from './components/child-to-parent/childd/childd.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ChildComponent } from './components/child/child.component';
     TwoComponent,
     ThreeComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    ParenttComponent,
+    ChilddComponent
   ],
   imports: [
     BrowserModule,
