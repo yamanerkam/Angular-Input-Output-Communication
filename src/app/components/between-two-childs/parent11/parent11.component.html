@@ -1,1 +1,4 @@
 <p>parent11 works!</p>
+<app-child1 (dataEvent)="dataCatch($event)"></app-child1>
+{{someMessageFromChild1}}
+<app-child2 [messageFrom]="someMessageFromChild1"></app-child2>

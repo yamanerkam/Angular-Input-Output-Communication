@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./parent11.component.css']
 })
 export class Parent11Component {
-
+  someMessageFromChild1:any;
+ dataCatch(obj:any){
+  console.log(obj)
+  this.someMessageFromChild1 = obj.msg
+ }
 }
